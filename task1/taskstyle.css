@@ -1,0 +1,16 @@
+.a{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#btn{
+    color: white;
+    background-color: #f08804;
+}
+#amzn{
+    color: #f08804;
+}
+span{
+    margin: 70px;
+    border: 2px;}

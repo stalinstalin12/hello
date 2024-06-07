@@ -1,5 +1,33 @@
 <html>
     <head>
-        <title>padding and margin</title>
+        <title>FORM</title>
+    <link rel="stylesheet" href="style1.css">
     </head>
+    <body align="center">
+        <h1>SIGNUP</h1>
+        <form action="ABC.PHP">
+            <label for="name">NAME</label>
+            <input type="text" placeholder="NAME"name="name"id="name"><br><br>
+            <label for="pass">PASSWORD</label>
+            <input type="password"value="pass"id="pass" placeholder="PASSWORD"><br><br>
+            <label for="mail">EMAIL</label>
+            <input type="email" id="mail" name="email"placeholder="MAIL"id="mail"><br><br>
+            <label for="gender">GENDER</label>
+            <input type="radio" name="gender" value="m">male
+            <input type="radio" name="gender" VALUE="f">female<br><br>
+            <label for="qual">EDUCATION</label>
+            <input type="checkbox"name="education"value="12">12th
+            <input type="checkbox"name="education"value="degree">degree <br><br>
+            <label for="course">COURSE</label>
+            <select name="course" id="crs">
+                <option value="bca">BCA</option>
+                <option value="bsc">BSC</option>
+                <option value="bcom">BCOM</option>
+            </select><br><br>
+            <label for="address">ADDRESS</label>
+            <textarea rows="2" cols="20" name="addr" id="addrs"value="address"></textarea><br><br>
+            <input type="button"value="LOGIN"id ="log">
+            <input type="submit"value="SIGNUP"id="sign">
+        </form>
+    </body>
 </html>
